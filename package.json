@@ -1,0 +1,24 @@
+{
+  "name": "api_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open:cy": "npx cypress open",
+    "run:cy": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chai": "^4.3.4",
+    "cypress-localstorage-commands": "^2.2.5",
+    "follow-redirects": "^1.14.6",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "request": "^2.88.2",
+    "supertest": "^6.1.6",
+    "twilio": "^4.19.3"
+  }
+}

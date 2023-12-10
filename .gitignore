@@ -1,0 +1,22 @@
+# The following file should be ignored
+allure-results
+cypress/videos
+cypress/screenshots
+mochawesome-report
+reports
+results
+TestReport
+cypress-combined-report.json
+cypress/reports/mocha
+cypress/fixtures/token.json
+data
+tokens
+# Node package
+
+node_modules
+
+# Logs
+
+*.log
+.env
+
